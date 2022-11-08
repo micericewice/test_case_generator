@@ -1,0 +1,19 @@
+Scenario ABC:
+  - A
+  - B:
+    - condition:
+      - Condition 1:
+        - Enable
+  - C
+
+Status XYZ:
+  - X:
+    - condition:
+      - Condition 1:
+        - Disable
+  - Y
+  - Z
+
+Condition 1:
+  - Enable
+  - Disable
